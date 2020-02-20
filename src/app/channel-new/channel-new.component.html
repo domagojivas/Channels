@@ -1,0 +1,15 @@
+<h2>Create new channel</h2>
+  <ul>
+    <li>Name:
+      <input [(ngModel)]="channel.name" placeholder="name"/>
+    </li>
+     <li>Id:
+      <input [(ngModel)]="channel.id" placeholder="id"/>
+    </li>
+     <li>Url:
+      <input [(ngModel)]="channel.url" placeholder="url"/>
+    </li>
+  </ul>
+
+  <button id="save" (click)="saveChanel()">Save</button>
+  <button id="back" (click)="back()">Back</button>

@@ -1,0 +1,54 @@
+#newChannel {
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  background-color: #70cc3b;
+  border: none;
+  color: white;
+  padding: 10px ;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.table{
+  margin: auto;
+  padding: 5px;
+}
+
+table {
+  height: 10px;
+  border-collapse: collapse;
+  background-color: white;
+  width: 600px;
+  
+}
+#holder, th, tr {  
+  border-spacing: 0;
+  border: 1px solid black;  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+th {
+  padding: 0px 5px 0px 5px;
+  text-align: left;
+  width: 150px;
+}
+
+
+th#actions{
+  width: 130px;
+}
+
+th#button{
+  width: 20px;
+  align-items: center;
+}
+
+
+
+
+

@@ -1,0 +1,39 @@
+  <button id="newChannel" (click)="createChannel()">CREATE A CHANNEL</button>
+  <div [hidden]="!openform">
+    <app-channel-new [channelList]="channelList"></app-channel-new>
+  </div>
+<div class="table">
+    <table id="holder">
+      <tr>
+        <th id="id">
+          Id
+        </th>
+        <th id="name">
+          Name
+        </th>
+        <th id="url">
+          Url
+        </th>
+        <th id="actions">
+          Actions
+        </th>
+        <th id="button">
+          <button id="someButton" (click)="button()">-</button>
+        </th>
+      </tr>
+      </table>
+<table id="results">
+    <div class="search-result" *ngIf="channels.length; else elseBlock">
+        <div id="ch" *ngFor="let channel of channels" >
+          <app-channel-details [channel]="channel"></app-channel-details>
+        </div>
+    
+      <ng-template  #elseBLock>
+          Nema kanala
+      </ng-template>
+      </div>
+  </table>
+</div>
+
+  
+  

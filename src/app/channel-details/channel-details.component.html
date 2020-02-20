@@ -1,0 +1,17 @@
+<div>
+  <tr >
+    <td id="id">
+        {{channel.id}}
+    </td>
+    <td id="name">
+       {{channel.name}}
+    </td>
+    <td id="url">
+       <a href="{{channel.url}}"> {{channel.url}}</a>
+    </td>
+    <td id="button">
+       <button id="button-edit" (click)="edit()">Edit</button>
+       <button id="button-delete" (click)="delete()">Delete</button>
+    </td>
+</tr>
+</div>

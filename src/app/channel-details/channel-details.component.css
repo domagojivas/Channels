@@ -1,0 +1,36 @@
+
+
+tr{
+  color: #2357c9d0;
+  height: 10px;
+  }
+
+td {
+  padding-left: 5px;
+  text-align: left;
+  border-collapse: collapse;  
+  border: 1px solid black;
+  border-spacing: 0;
+  width: 150px;
+}
+
+button{
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 3px;  
+  font-family: Arial, Helvetica, sans-serif;
+  align-self: centre;
+  
+}
+
+#button-edit{
+  background-color: #70cc3b;
+  margin:  0 2px 0 15%;
+  }
+
+#button-delete{
+  background-color: hsl(24, 100%, 50%);
+  margin:  0 15% 0 2px ;
+  }
